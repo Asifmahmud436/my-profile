@@ -1,50 +1,98 @@
-# Welcome to your Expo app 👋
+# Profile & Hobbies App 🎯
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+My first React Native project - a simple profile app where you can add and manage your hobbies. Built while learning React Native from the official docs.
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+- Display profile with image, name, and bio
+- Add hobbies to your list
+- Delete hobbies you no longer have
+- Clean, modern UI with NativeWind (Tailwind CSS)
+- Form validation with alerts
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
 
-2. Start the app
+- **React Native** - Mobile framework
+- **Expo** - Development platform
+- **NativeWind** - Tailwind CSS for React Native
+- **React Hooks** - useState for state management
 
-   ```bash
-   npx expo start
-   ```
+## 📸 Screenshots
 
-In the output, you'll find options to open the app in a
+_[Add screenshots here when you take them]_
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Prerequisites
 
-## Get a fresh project
+- Node.js installed
+- Expo Go app on your phone (or Android/iOS emulator)
 
-When you're ready, run:
+### Installation
 
+1. Clone the repository
 ```bash
-npm run reset-project
+git clone https://github.com/Asifmahmud436/my-profile.git
+cd my-profile
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies
+```bash
+npm install
+```
 
-## Learn more
+3. Start the development server
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Scan the QR code with Expo Go (Android) or Camera app (iOS)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📝 What I Learned
 
-## Join the community
+- React Native core components (View, Text, Image, FlatList, TextInput, Button)
+- State management with useState
+- Handling user input and form validation
+- List rendering with FlatList
+- Conditional rendering
+- Array manipulation (filter for delete functionality)
+- Styling with NativeWind/Tailwind CSS
+- **Important:** Never mutate state directly in React - always create new arrays/objects
 
-Join our community of developers creating universal apps.
+## 🐛 Challenges I Faced
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Initially used `className` without proper NativeWind setup
+- Learned about immutability - can't use `splice()` directly on state
+- Had to fix `tailwind.config.js` content paths to scan the right directories
+- Understanding the difference between `onChange` and `onChangeText`
+
+## 🔜 Future Improvements
+
+- [ ] Add AsyncStorage to persist hobbies
+- [ ] Add edit functionality for hobbies
+- [ ] Add hobby categories
+- [ ] Add dark mode toggle
+- [ ] Prevent duplicate hobbies
+- [ ] Add swipe-to-delete gesture
+
+## 🎓 Learning Journey
+
+This is my first React Native project, built as part of my journey learning mobile development. Following the official React Native documentation and building practical projects to solidify concepts.
+
+**Goal:** Learn React Native well enough to build apps without relying on AI assistance for coding.
+
+## 📚 Resources Used
+
+- [React Native Documentation](https://reactnative.dev/docs/getting-started)
+- [Expo Documentation](https://docs.expo.dev/)
+- [NativeWind Documentation](https://www.nativewind.dev/)
+
+## 👨‍💻 Author
+
+**Asif Mahmud**
+- Learning React Native
+- Passionate about mobile development
+
+---
+
+_Built with 💪 and determination to learn without AI dependency_
